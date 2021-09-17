@@ -35,4 +35,36 @@ nav {
     background-color: #EEF3F7;
     border: none;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#input_barra_pesquisa {
+    width: 100%;
+    height: 100%;
+    background-color: #EEF3F7;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#input_barra_pesquisa:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#imagem_lupa {
+    width: 11px;
+    height: 11px;
+    padding: 12px 8px 11px 15px;
+}
+
+#input_barra_pesquisa::-webkit-input-placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
 }
