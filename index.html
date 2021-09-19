@@ -11,49 +11,128 @@
     <title>Samuel Giacomelli Bruing</title>
 </head>
 <body>
-    <div id="container"> <!-- Max-width -->
-        <header>
-            <nav>
-                <div id="agrupador_logo_pesquisas">
-                    <a href="#" id="home_linkedin">
-                        <img src="images/linkedin.jpg" alt="logo do linkedin" id="logo_linkedin">
-                    </a >
-                    <div id="barra_pesquisa">
-                        <label for="input_barra_pesquisa">
-                            <img src="images/loupe.png" alt="" id="imagem_lupa">
-                        </label>
-                        <input type="text" id="input_barra_pesquisa" placeholder="Pesquisar">
-                    </div>
-                </div>
-                <div id="icones_nav">
-                    <a href="" id="btn_inicio">
-                        <img src="" alt="" id="logo_inicio">
-                    </a>
-                    <a href="" id="btn_minha_rede">
-                        <img src="" alt="" id="logo_minha_rede">
-                        <label for="logo_minha_rede">Minha Rede</label>
-                    </a>
-                    <a href="" id="btn_vagas">
-                        <img src="" alt="" id="logo_vagas">
-                        <label for="logo_vagas">Vagas</label>
-                    </a>
-                    <a href="" id="btn_mensagens">
-                        <img src="" alt="" id="logo_mensagens">
-                        <label for="logo_mensagens">Mensagens</label>
-                    </a>
-                    <a href="" id="btn_notificações">
-                        <img src="" alt="" id="logo_inicio">
-                        <label for="logo_inicio">Notificações</label>
-                    </a>
-                </div>
-                <a href="" id="btn_eu">
-                    <img src="" alt="" id="img_perfil_nav">
-                    <label for="img_perfil_nav">Eu</label>
+    <header>
+        <div class="header-container">
+            <div id="coluna_esquerda_header">
+                <a href="#" id="home_linkedin">
+                    <img src="images/linkedin.jpg" alt="logo do linkedin" id="logo_linkedin">
                 </a>
-            </nav>
-        </header>      
-    </div>
+                <div id="barra_pesquisa">
+                    <label for="input_barra_pesquisa">
+                        <img src="images/loupe.png" alt="" id="imagem_lupa">
+                    </label>
+                    <input type="text" id="input_barra_pesquisa" placeholder="Pesquisar">
+                </div>
+            </div>
+            <div id="coluna_direita_header">
+                <nav id="botoes_nav">
+                    <a class="botao-nav" href="#" id="btn_inicio">
+                        <img class="icone-botao-nav" src="images/home-icon-silhouette.png" alt="Ícone início" id="icone_inicio">
+                    Início</a>
+                    <a class="botao-nav" href="#" id="btn_minha_rede">
+                        <img class="icone-botao-nav" src="images/group-of-three-men-standing-side-by-side-hugging-each-other.png" alt="Ícone minha rede" id="icone_minha_rede">
+                    Minha Rede</a>
+                    <a class="botao-nav" href="#" id="btn_vagas">
+                        <img class="icone-botao-nav" src="images/portfolio.png" alt="Icone vagas" id="icone_vagas">
+                    Vagas</a>
+                    <a class="botao-nav" href="#" id="btn_mensagens">
+                        <img class="icone-botao-nav" src="images/chat.png" alt="Icone mensagens" id="icone_mensagens">
+                    Mensagens</a>
+                    <a class="botao-nav" href="#" id="btn_notificações">
+                        <img class="icone-botao-nav" src="images/bell.png" alt="Icone notificações" id="icone_notificacao">
+                    Notificações</a>
+                </nav>
+                <div id="perfil_header">
+                    <a href="" id="btn_perfil_header">
+                        <img src="images/perfil.jpg" alt="" id="img_perfil_header">
+                    Eu</a>
+                </div>
+            </div>
+        </div>
+    </header>      
+    <main>
+        <section class="main-container">
+            <div id="foto_capa">
+                <div id="capa"></div>
+                <img id="img_perfil_principal" src="images/perfil.jpg" alt="">
+            </div>
+            <div id="perfil_infos">
+                <div id="textos_perfil">
+                    <div id="user_infos">
+                        <h1>Samuel Giacomelli Bruing</h1>
+                        <h2>Desenvolvedor de Software</h2>
+                        <p>Caxias do sul, Rio Grande do Sul, Brasil <span class="ponto">&#9679;</span><span> Informações de contato</span></p>
+                        <p>128 conexões</p>
+                    </div>
 
-
+                    <div class="container-info-atual">
+                        <div class="info-trabalho-atual">
+                            <div><img src="images/logo_marcopolo.jpg"></div>
+                            <p>Marcopolo S.A.</p>
+                        </div>
+                        <div class="info-trabalho-atual">
+                            <div><img src="images/logo_ucs.jpg"></div>
+                            <p>UCS - Universidade de Caxias do Sul</p>
+                        </div>
+                    </div> 
+                </div>
+                <div id="botoes_perfil">
+                    <button>Tenho interesse em...</button>
+                    <button>Adicionar seção</button>
+                    <button>Mais</button>
+                </div>
+            </div>
+        </section>
+        <section class="main-container">
+            <div class="experiencia">
+                <h3>Experiência</h3>
+                <article class="exp-info">
+                    <div class="exp-img"><img src="images/logo_marcopolo.jpg"></div>
+                    <div class="exp-txt">
+                        <h4>Desenvolvedor de Software Assistente</h4>
+                        <p>Marcopolo S.A. <span class="ponto">&#9679;</span><span> Meio Período</p>
+                        <p>fev. de 2021 — o momento <span class="ponto">&#9679;</span><span> 8 meses</p>
+                        <p>Caxias do Sul, Rio Grande do Sul, Brasil</p>
+                        <p class="exp-desc-title">Principais Atividades e Ferramantas: </p>
+                        <p class="exp-desc-text">-Desenvolvimento web baseado no framework TOTVs Fluig (HTML, CSS, JavaScript, JQuery, Bootstrap).</p>
+                        <p class="exp-desc-text">-Projetos de IOT utilizando Raspberry Pi e Python.</p>
+                    </div>
+                </article>
+                <div class="container-divisor"><div class="divisor"></div></div>
+                <article class="exp-info">
+                    <div class="exp-img"><img src="images/logo_metradev.jpg"></div>
+                    <div class="exp-txt">
+                        <h4>Fundador</h4>
+                        <p>METRADEV Tecnologias Assistivas <span class="ponto"> &#9679; </span> Meio Período </p>
+                        <p>nov. de 2020 — ago. de 2021 <span class="ponto"> &#9679; </span> 10 meses</p>
+                        <p>Caxias do Sul, Rio Grande do Sul, Brasil</p>
+                    </div>
+                </article>
+            </div>
+            <div class="divisor-section"></div>
+            <div class="formacao">
+                <h3>Formação Acadêmica</h3>
+                <article class="exp-info">
+                    <div class="exp-img"><img src="images/logo_ucs.jpg"></div>
+                    <div class="exp-txt">
+                        <h4>UCS - Universidade de Caxias do Sul</h4>
+                        <p>Bacharelado, Engenharia de Computação</p>
+                        <p>2021 - 2026</p>
+                    </div>
+                </article>
+                <div class="container-divisor">
+                    <div class="divisor"></div>
+                </div>
+                <article class="exp-info">
+                    <div class="exp-img"><img src="images/logo_letscode.jpg"></div>
+                    <div class="exp-txt">
+                        <h4>Let's Code</h4>
+                        <p>Formação Web Fullstack</p>
+                        <p>2021 — 2022</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
